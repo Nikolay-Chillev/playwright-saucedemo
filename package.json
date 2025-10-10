@@ -1,0 +1,16 @@
+{
+  "name": "playwright-saucedemo",
+  "version": "1.0.0",
+  "description": "Playwright automated tests for SauceDemo demo website",
+  "scripts": {
+    "install:pw": "npx playwright install --with-deps",
+    "test": "npx playwright test",
+    "report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.0"
+  },
+  "dependencies": {
+    "playwright": "^1.56.0"
+  }
+}

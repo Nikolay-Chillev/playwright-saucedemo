@@ -56,7 +56,7 @@ A failed test is retried once. The retry records a trace, and failures keep a sc
 
 ## CI
 
-GitHub Actions runs the suite on every push and pull request, with a separate job for each browser. Each job uploads its HTML report and the raw results (traces, screenshots, videos) as artifacts, kept for 7 days.
+GitHub Actions runs the suite on every pull request and every push to `main`, with a separate job for each browser. Each job uploads its HTML report and the raw results (traces, screenshots, videos) as artifacts, kept for 7 days.
 
 ## License
 
